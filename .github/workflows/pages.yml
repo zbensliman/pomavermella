@@ -15,4 +15,5 @@ jobs:
       - uses: actions/upload-pages-artifact@v3 
         with:
           path: '.' 
+          name: github-pages
       - uses: actions/deploy-pages@v2
